@@ -1,0 +1,39 @@
+.favorites-wrapper {
+  display: flex;
+  flex-direction: column;
+  /* height: 50%; */
+  width: 100%;
+}
+.favorites {
+  display: flex;
+  gap: 25px;
+  overflow: auto;
+  margin-bottom: 30px;
+  height: 45vh;
+}
+.favorites-title {
+  color: #fa6400;
+  font-weight: 700;
+  font-size: 35px;
+  margin: 20px 0;
+}
+
+.loading {
+  font-size: 25px;
+  font-weight: 600;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  color: white;
+}
+.items {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+.search-favorites input {
+  padding: 10px 50px;
+  margin-bottom: 30px;
+}

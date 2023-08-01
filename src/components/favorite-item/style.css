@@ -1,0 +1,39 @@
+.favorites {
+  height: 38vh;
+  padding: 0 10px;
+}
+.favorite-item {
+  border: 1px solid red;
+  padding: 8px;
+  box-shadow: 0 0 10px 0 rgba(250, 100, 0, 1);
+  background-color: #ffff;
+}
+.favorite-item div {
+  width: 15vw;
+}
+.favorite-item div img {
+  width: 100%;
+}
+.favorite-item p {
+  color: #fa6400;
+  font-weight: 700;
+  font-size: 18px;
+  margin: 12px 0;
+}
+.favorite-item button {
+  background-color: #fa6400;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  box-shadow: 0 1px 3px 2px rgb(211, 210, 210);
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  padding: 15px 35px;
+}
+.favorite-item button:hover {
+  box-shadow: 2px 1px 3px 4px rgb(178, 176, 176);
+}
